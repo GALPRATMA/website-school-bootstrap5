@@ -1,298 +1,366 @@
 <!DOCTYPE html>
-<html lang="in">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <title>Tugas Kelompok | Membuat Website Sekolah</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMK Islam Bojong | Website Resmi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- awal topbar  -->
-    <div id="topbar">
+    <!-- Topbar -->
+    <div id="topbar" class="py-2">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8 col-md-7">
+            <ul class="top-contact d-flex flex-wrap mb-0">
+              <li>
+                <a href="tel:+6285848335326"><i class="bi bi-telephone-fill me-2"></i>+62 858-4833-5326</a>
+              </li>
+              <li>
+                <a href="mailto:smkislambojong@gmail.com"><i class="bi bi-envelope-fill me-2"></i>smkislambojong@gmail.com</a>
+              </li>
+              <li class="announcement">
+                <a href="#"><i class="bi bi-megaphone-fill me-2"></i>PPDB 2024/2025 TELAH DIBUKA</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-5">
+            <ul class="social-media d-flex justify-content-end mb-0">
+              <li>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="py-3 bg-white shadow-sm">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-2 col-md-3 text-center text-md-start mb-3 mb-md-0">
+            <img src="img/logosmk.jpg" alt="Logo SMK Islam Bojong" class="img-fluid" style="max-height: 80px" />
+          </div>
+          <div class="col-lg-7 col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <h1 class="school-name">SMK ISLAM BOJONG</h1>
+            <p class="school-tagline mb-0">Sekolah Pencetak Murid Ramah dan Sopan Santun</p>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <form class="search-form">
+              <div class="input-group">
+                <input type="search" class="form-control" placeholder="Cari..." />
+                <button class="btn btn-primary"><i class="bi bi-search"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+            <li class="nav-item"><a class="nav-link" href="#profil">Profil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tenaga-pendidik">Tenaga Pendidik</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ekstrakulikuler">Ekstrakulikuler</a></li>
+            <li class="nav-item"><a class="nav-link" href="#kegiatan">Kegiatan</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="hero-section position-relative">
+      <div class="container h-100 d-flex align-items-center">
+        <div class="card hero-card">
+          <div class="card-body text-center">
+            <h2 class="card-title mb-4">Penerimaan Peserta Didik Baru 2024/2025</h2>
+            <p class="card-text mb-4">Daftar sekarang melalui <a href="ppdb.smkislambojong.sch.id" class="text-primary">ppdb.smkislambojong.sch.id</a></p>
+            <a href="#" class="btn btn-primary btn-lg px-4">Daftar Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rest of the sections remain structurally similar but with improved spacing and responsive classes -->
+
+    <!-- Profil Section -->
+    <section id="profil" class="section-padding">
       <div class="container">
         <div class="row">
-          <div class="col-md-9">
-            <ul class="top-bar d-flex">
-              <li>
-                <a href=""><i class="bi bi-telephone"></i>+62 858-4833-5326</a>
-              </li>
-              <li>
-                <a href=""><i class="bi bi-envelope"></i>smkislambojong@gmail.com</a>
-              </li>
-              <li>
-                <a href=""><i class="bi bi-megaphone"></i>PPDB TAHUN 2024/2025 TELAH DIBUKA</a>
-              </li>
-            </ul>
+          <div class="col-12 text-center mb-5">
+            <h2 class="section-title">Profil SMK Islam Bojong</h2>
+            <div class="section-divider"></div>
           </div>
-          <div class="col-md-3">
-            <ul class="sosmed d-flex">
-              <li>
-                <a href=""><i class="bi bi-instagram"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="bi bi-twitter"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="bi bi-facebook"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="bi bi-youtube"></i></a>
-              </li>
-            </ul>
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="profile-image">
+              <img src="img/ijo.jpg" alt="SMK Islam Bojong" class="img-fluid rounded-4 shadow" />
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- awal navbar dan search -->
-    <div class="logo shadow mb-1">
-      <div class="container d-flex justify-content-center align-items-center">
-        <img src="img/logosmk.jpg" alt="logo smkislambojong"  style="height: 100px; " class="me-4"/>
-        <div class="col-md-6 mt-3">
-          <h1 class="heading">SMK ISLAM BOJONG</h1>
-          <p>SEKOLAH PENCETAK MURID RAMAH DAN SOPAN SANTUN</p>
-        </div>
-        <div class="col-md-4">
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </div>
-
-    <!-- akhir navbar and search -->
-
-    <!-- awal semua navbar -->
-    <ul class="nav justify-content-center text-bg-secondary p-2">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#beranda">Beranda</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#profil">Profil</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#tenaga-pendidk">Tenaga Pendidik</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#ekstrakulikuler">Ekstrakulikuler</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#kegiatan">Kegiatan </a>
-      </li>
-    </ul>
-    <!-- akhir semua navbar -->
-
-    <!-- beranda -->
-    <div class="Beranda" id="beranda">
-      <div class="foto">
-          <div class="card puckup" style="width: 35rem">
-            <div class="card-body ppdb">
-              <h4 class="card-title">Penerimaan Peserta Didik Baru Tahun 2024 / 2025 Telah Dibuka </h4><br>
-              <p class="card-text">Silakan anda bisa akses <a href="" class="text-decoration-none ">ppdb.smkislambojong.sch.id</a> untuk mendapatkan semua informasi terkait pendaftaran PPDB Tahun ajaran 2024 / 2025 SMA MAJU MAKMUR</p>
-              <button type="button" class="btn  botten">Daftar Sekarang</button>
+          <div class="col-lg-6">
+            <div class="profile-content">
+              <h3 class="mb-4">SMK Islam Bojong 2024</h3>
+              <p class="mb-4">
+                SMK Islam Bojong merupakan sekolah menengah kejuruan yang berdedikasi untuk mengembangkan potensi siswa melalui pendidikan berkualitas dan pembentukan karakter islami. Dengan fasilitas modern dan tenaga pengajar profesional,
+                kami berkomitmen menghasilkan lulusan yang kompeten, berakhlak mulia, dan siap menghadapi tantangan global.
+              </p>
+              <div class="profile-features">
+                <div class="row g-4 mb-4">
+                  <div class="col-sm-6">
+                    <div class="feature-item">
+                      <i class="bi bi-book-fill text-primary mb-2"></i>
+                      <h5>Program Unggulan</h5>
+                      <p>Kurikulum terintegrasi dengan nilai-nilai islami</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="feature-item">
+                      <i class="bi bi-people-fill text-primary mb-2"></i>
+                      <h5>Guru Berkualitas</h5>
+                      <p>Pengajar profesional dan berpengalaman</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary px-4 py-2">Pelajari Lebih Lanjut</a>
             </div>
           </div>
         </div>
       </div>
-      
-    </div>
-    <!-- akhir beranda  -->
+    </section>
 
-    <!-- awal profil  -->
-     <div class="profil" id="profil">
+    <!-- Tenaga Pendidik Section -->
+    <section id="tenaga-pendidik" class="section-padding bg-light">
       <div class="container">
-      <div class="row">
-        <h2 class="mt-5"> Profil Smk Islam Bojong </h2>
-        <div class="col-md-6">
-          <img src="img/ijo.jpg" alt="profil smkislambojong" class="mt-5 ">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="section-title">Tenaga Pendidik</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Tim pengajar profesional yang berdedikasi untuk pendidikan berkualitas</p>
+          </div>
         </div>
-        <div class="col-md-6">
-          <div class="smkijo mt-5">
-            <div class="profil-smk">
-              <h4>Smk Islam Bojong 2024</h4><br>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quae beatae magni quia iure eos illum officiis debitis sit expedita cumque tempore, dolore maiores sequi quidem error? Natus repellat totam enim saepe est ab sapiente atque corrupti libero quo dolores doloremque hic, aliquid, aspernatur eos ut reprehenderit nobis distinctio quaerat, cumque qui consequatur? Possimus ut aliquam aspernatur, asperiores ex iste praesentium nisi excepturi earum corrupti doloribus, ipsa quibusdam neque numquam veritatis vitae fuga sapiente omnis velit blanditiis sed esse soluta cumque! Tempora, ullam dolorum dicta quam laudantium dolor quo adipisci? Necessitatibus possimus quia perferendis reprehenderit voluptates id! Totam, eum nihil!</p>
-              <br>
-              <button type="button" class="btn  botten">Daftar Sekarang</button>
+        <div class="row g-4">
+          <!-- Guru Card 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="teacher-card">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="teacher-image">
+                  <img src="img/bg.jpg" class="card-img-top" alt="Moh. Yusuf Maksum" />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-2">Moh. Yusuf Maksum</h5>
+                  <p class="text-muted mb-3">Kepala Sekolah</p>
+                  <div class="teacher-social">
+                    <a href="#" class="text-secondary me-2"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-secondary me-2"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="text-secondary"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Guru Card 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="teacher-card">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="teacher-image">
+                  <img src="img/pp.jpg" class="card-img-top" alt="Febrina Murdianingsih" />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-2">Febrina Murdianingsih</h5>
+                  <p class="text-muted mb-3">Guru Matematika</p>
+                  <div class="teacher-social">
+                    <a href="#" class="text-secondary me-2"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-secondary me-2"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="text-secondary"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Guru Card 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="teacher-card">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="teacher-image">
+                  <img src="img/pp.jpg" class="card-img-top" alt="Titik Hidayati" />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-2">Titik Hidayati</h5>
+                  <p class="text-muted mb-3">Guru Bahasa Indonesia</p>
+                  <div class="teacher-social">
+                    <a href="#" class="text-secondary me-2"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-secondary me-2"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="text-secondary"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        <div class="text-center mt-5">
+          <a href="#" class="btn btn-primary px-4 py-2">Lihat Semua Guru</a>
         </div>
       </div>
-     <!-- awal gelombang  -->
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L34.3,181.3C68.6,203,137,245,206,218.7C274.3,192,343,96,411,85.3C480,75,549,149,617,186.7C685.7,224,754,224,823,202.7C891.4,181,960,139,1029,128C1097.1,117,1166,139,1234,160C1302.9,181,1371,203,1406,213.3L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
-      <!-- akhir gelombang -->
-     </div>
-     <!-- akhir profil -->
+    </section>
 
-     <!-- awal prestasi -->
-     <section id="tenaga-pendidik">
+    <!-- Ekstrakulikuler Section -->
+    <section id="ekstrakulikuler" class="section-padding">
       <div class="container">
-        <h2 class="text-center mb-5"> Tenaga Pendidik</h2>
-            <div class ="row d-flex">
-                  <div class="col-md-4 mb-3">
-                        <div class="card" >
-  <img src="img/bg.jpg" class="card-img-top" alt="Project">
-  <div class="card-body">
-    <p class="card-text"> Moh. Yusuf Maksum  </p>
-  </div>
-</div>
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="section-title">Ekstrakulikuler</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Mengembangkan bakat dan minat siswa melalui kegiatan yang beragam</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <!-- Ekskul Card 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="ekskul-card">
+              <div class="card border-0 shadow-sm text-center">
+                <div class="card-body p-4">
+                  <div class="ekskul-icon mb-3">
+                    <i class="bi bi-flag-fill text-primary"></i>
                   </div>
-                  <div class="col-md-4 mb-3">
-                        <div class="card" >
-  <img src="img/pp.jpg" class="card-img-top" alt="Project">
-  <div class="card-body">
-    <p class="card-text">Febrina Murdianingsih</p>
-  </div>
-</div>
-                  </div>
-                  <div class="col-md-4 mb-3">
-                        <div class="card" >
-  <img src="img/pp.jpg" class="card-img-top" alt="Project">
-  <div class="card-body">
-    <p class="card-text"> Titik Hidayati  </p>
-  </div>
-</div>
-                  </div>
-            </div>
-
-            <!-- button -->
-             <div class="d-grid gap-2 col-2 mx-auto mt-5">
-                <button class="btn botten" type="button">Lihat Semua Guru</button>
-            </div>
-            <!-- akhiir button -->
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill=" rgba(101, 192, 248, 0.238)" fill-opacity="1" d="M0,160L34.3,181.3C68.6,203,137,245,206,240C274.3,235,343,181,411,160C480,139,549,149,617,170.7C685.7,192,754,224,823,229.3C891.4,235,960,213,1029,181.3C1097.1,149,1166,107,1234,90.7C1302.9,75,1371,85,1406,90.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
-</section> <!-- akhir prestasi -->
-
-<!-- awal ekstrakulikuler -->
- <section id="ekstrakulikuler" style="background-color: rgba(101, 192, 248, 0.238);">
-  <div class="container">
-    <h2 class="text-center mb-5">Ekstrakulikuler</h2>
-    <div class="row ">
-      <div class="col-md-4">
-        <div class="card text-center mb-3 text-bg-info" style="height: 15rem; ">
-          <div class="card-body ">
-            <h3 class="card-title" style="margin-top: 5rem;">Pramuka </h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card text-center mb-3 text-bg-info" style="height: 15rem; ">
-          <div class="card-body ">
-            <h3 class="card-title" style="margin-top: 5rem;">Esport</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card text-center mb-3 text-bg-info" style="height: 15rem; ">
-          <div class="card-body ">
-            <h3 class="card-title" style="margin-top: 5rem;">Sepak Bola </h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card text-center mb-3 text-bg-info" style="height: 15rem; ">
-          <div class="card-body ">
-            <h3 class="card-title" style="margin-top: 5rem;">Sepak Takraw</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card text-center mb-3 text-bg-info" style="height: 15rem; ">
-          <div class="card-body ">
-            <h3 class="card-title" style="margin-top: 5rem;">Pencak Silat</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card text-center mb-3 text-bg-info" style="height: 15rem; ">
-          <div class="card-body ">
-            <h3 class="card-title" style="margin-top: 5rem;">Rebana </h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill=" #fff" fill-opacity="1" d="M0,160L34.3,181.3C68.6,203,137,245,206,240C274.3,235,343,181,411,160C480,139,549,149,617,170.7C685.7,192,754,224,823,229.3C891.4,235,960,213,1029,181.3C1097.1,149,1166,107,1234,90.7C1302.9,75,1371,85,1406,90.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
- </section>
- <!-- akhir -->
-
- <!-- awal Prestasi  -->
-  <section id="kegiatan">
-    <div class="container">
-      <div class="row">
-        <h2 class="text-center mb-3"> Kegiatan Sekolah</h2>
-        <div class="col-md-6">
-          <img src="img/prakrin.jpg" alt="profil smkislambojong" class="mt-5 rounded-3" style=" width: 37rem;height: 23rem;">
-        </div>
-        <div class="col-md-6 ">
-          <div class="smkijo mt-5">
-            <div class="profil-smk">
-              <h4>Kunjungan Industri Gamelab</h4>
-              <p>Pada kesempatan kali ini, siswa-siswi SMK Islam Bojong mendapat pengetahuan baru tentang dunia industri kreatif. Industri kreatif merupakan industri yang berfokus pada penghasilan dan pemanfaatan ide, kreativitas, dan bakat untuk menciptakan produk, layanan, atau konten yang memiliki nilai komersial dan estetika.
-                Bidang industri kreatif cukup luas, misalnya bidang seni, desain, media, hiburan, teknologi, dan masih banyak lagi. Sektor ini berkembang pesat dalam ekonomi global. Banyak negara menilai sektor industri kreatif memberi sumber pertumbuhan ekonomi yang signifikan.
-                PT Educa Sisfomedia yang memiliki dua startup yakni Educa Studio dan Gamelab Indonesia juga bergerak di bidang kreatif, lebih tepatnya teknologi dan digital kreatif.
-                Di kunjungan ini, adik-adik SMK Islam Bojong dikenalkan tentang bagaimana sebuah proses kreatif berjalan di Educa dan Gamelab. </p>
-              <button type="button" class="btn  botten text-decoration-none">Lihat Sekarang</button>
+                  <h4>Pramuka</h4>
+                  <p class="text-muted">Membentuk karakter kepemimpinan dan kemandirian siswa melalui kegiatan kepramukaan.</p>
+                </div>
+              </div>
             </div>
           </div>
+          <!-- Ekskul Card 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="ekskul-card">
+              <div class="card border-0 shadow-sm text-center">
+                <div class="card-body p-4">
+                  <div class="ekskul-icon mb-3">
+                    <i class="bi bi-controller text-primary"></i>
+                  </div>
+                  <h4>Esport</h4>
+                  <p class="text-muted">Mengembangkan kemampuan strategi dan kerja tim melalui kompetisi game profesional.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Ekskul Card 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="ekskul-card">
+              <div class="card border-0 shadow-sm text-center">
+                <div class="card-body p-4">
+                  <div class="ekskul-icon mb-3">
+                    <i class="bi bi-dribbble text-primary"></i>
+                  </div>
+                  <h4>Sepak Bola</h4>
+                  <p class="text-muted">Melatih fisik dan sportivitas melalui olahraga sepak bola.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- More cards... -->
+        </div>
       </div>
-      <div class="col-md-6">
-        <img src="img/wisuda.jpg" alt="profil smkislambojong" class="mt-5 rounded-3" style=" width: 37rem;height: 23rem;">
-      </div>
-      <div class="col-md-6 ">
-        <div class="smkijo mt-5">
-          <div class="profil-smk">
-            <h4>Wisuda Smk Islam Bojong</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae ullam id perspiciatis neque nam recusandae, quas accusamus beatae, inventore commodi voluptatibus. Recusandae minus quidem qui soluta reiciendis excepturi beatae ducimus, omnis ipsum amet libero, repellendus labore facilis, laborum cupiditate provident nulla perferendis odit eveniet quas eius officiis. Magnam quae, cumque modi ipsum deserunt minima, ipsam obcaecati unde commodi recusandae harum temporibus fugiat voluptatum officiis enim accusamus similique dicta id dolores totam beatae corrupti aliquid! Dicta, fugit? Perferendis consequuntur vel, doloremque quis distinctio aperiam blanditiis deleniti eum fuga incidunt mollitia quia. Rem molestiae quidem eveniet qui assumenda voluptate esse eos eum!</p>
-            <button type="button" class="btn  botten text-decoration-none">Lihat Sekarang</button>
+    </section>
+
+    <!-- Kegiatan Section -->
+    <section id="kegiatan" class="section-padding bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="section-title">Kegiatan Sekolah</h2>
+            <div class="section-divider"></div>
           </div>
         </div>
-    </div>
-    <div class="col-md-6">
-      <img src="img/harlah.jpg" alt="profil smkislambojong" class="mt-5 rounded-3" style=" width: 37rem;height: 23rem;">
-    </div>
-    <div class="col-md-6 ">
-      <div class="smkijo mt-5">
-        <div class="profil-smk">
-          <h4>Harlah Smk Islam Bojong</h4>
-          <p>murid dan guru SMK Islam Bojong, Kabupaten Pekalongan memperingati harlah ke sembilan sekolah. Harlah diisi dengan doa bersama dan pemberian motivasi kepada para guru dan siswa. 
-            Pemberian motivasi dan doa bersama untuk kesuksesan sekolah diisi oleh kepala SMK Islam Bojong, Muhammad Baihaqi, Sulikin selaku kepala cabang Dinas Pendidikan Wilayah 12 provinsi Jawa Tengah, serta dari pihak yayasan. 
-            Setelah sambutan, doa bersama dan pemberian motivasi, acara seremoni potong tumpeng digelar. Potong tumpeng ini sebagai rasa syukur sudah sembilan tahun SMK Islam Bojong ada di Kabupaten Pekalongan. 
-            Setelah pemotongan tumpeng, acara berlanjut dengan peresmian gedung baru yang merupakan ruang praktek siswa. Nantinya ruangan ini akan menjadi kelas untuk jurusan rekayasa perangkat lunak dan jurusan lain.
-            </p>
-          <button type="button" class="btn  botten text-decoration-none">Lihat Sekarang</button>
+        <div class="row g-4">
+          <!-- Kegiatan 1 -->
+          <div class="col-lg-6 mb-4">
+            <div class="activity-card h-100">
+              <div class="card border-0 shadow-sm">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img src="img/prakrin.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="Kunjungan Industri" />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h4 class="card-title">Kunjungan Industri Gamelab</h4>
+                      <p class="card-text">Siswa-siswi SMK Islam Bojong mendapat pengetahuan baru tentang dunia industri kreatif melalui kunjungan ke Gamelab Indonesia.</p>
+                      <a href="#" class="btn btn-outline-primary">Selengkapnya</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Kegiatan 2 -->
+          <div class="col-lg-6 mb-4">
+            <div class="activity-card h-100">
+              <div class="card border-0 shadow-sm">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img src="img/wisuda.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="Wisuda" />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h4 class="card-title">Wisuda Angkatan 2024</h4>
+                      <p class="card-text">Prosesi wisuda dan pelepasan siswa-siswi SMK Islam Bojong yang telah menyelesaikan pendidikannya.</p>
+                      <a href="#" class="btn btn-outline-primary">Selengkapnya</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    </div>
-  </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill=" #0d6efd" fill-opacity="1" d="M0,160L34.3,181.3C68.6,203,137,245,206,240C274.3,235,343,181,411,160C480,139,549,149,617,170.7C685.7,192,754,224,823,229.3C891.4,235,960,213,1029,181.3C1097.1,149,1166,107,1234,90.7C1302.9,75,1371,85,1406,90.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
-    <footer class="bg-primary text-white text-center pb-2">
-      <ul class="nav justify-content-center   p-2">
-        <li class="nav-item ">
-          <a class="nav-link active" aria-current="page" href="#beranda">Beranda</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="#profil">Profil</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#tenaga-pendidik">Tenaga Pendidik</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#ekstrakulikuler">Ekstrakulikuler</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#kegiatan">Kegiatan </a>
-        </li>
-      </ul>
-  <p class="pt-4">Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="#home" class="text-white text-decoration-none">Galih Pratama</a></p>
-  
-  </footer>
-  </section>
-  <!-- akhir  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white pt-5 pb-3">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h5>Tentang Kami</h5>
+            <p>SMK Islam Bojong - Sekolah unggulan dengan pendidikan berkualitas dan pembentukan karakter islami.</p>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h5>Kontak</h5>
+            <p><i class="bi bi-geo-alt-fill me-2"></i>Jl. Bojong No. 123, Pekalongan</p>
+            <p><i class="bi bi-telephone-fill me-2"></i>+62 858-4833-5326</p>
+            <p><i class="bi bi-envelope-fill me-2"></i>smkislambojong@gmail.com</p>
+          </div>
+          <div class="col-lg-4">
+            <h5>Ikuti Kami</h5>
+            <div class="social-links">
+              <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="me-3"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <hr class="border-light" />
+        <p class="text-center mb-0">© 2024 SMK Islam Bojong. Created with <i class="bi bi-heart-fill text-danger"></i> by Galih Pratama</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

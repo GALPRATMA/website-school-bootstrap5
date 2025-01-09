@@ -253,6 +253,100 @@ footer {
   object-fit: cover;
 }
 
+/* Add these styles to your existing CSS */
+.modal-xl {
+  max-width: 90%;
+}
+
+.section-title {
+  position: relative;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.section-divider {
+  width: 60px;
+  height: 3px;
+  background-color: #0d6efd;
+  margin: 1rem auto;
+}
+
+.feature-card {
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #e7f1ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.icon-box i {
+  font-size: 2rem;
+  color: #0d6efd;
+}
+
+.stats-box {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.stats-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.facility-img {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.teacher-modal-card {
+  transition: transform 0.3s ease;
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.teacher-modal-card:hover {
+  transform: translateY(-5px);
+}
+
+.teacher-social a {
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.teacher-social a:hover {
+  color: var(--bs-primary) !important;
+}
+
+#teacherSearch,
+#teacherFilter {
+  border-radius: 0.375rem;
+}
+
+.modal-header.bg-primary {
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: 1px solid #dee2e6;
+}
+
 /* Responsive Adjustments */
 
 /* Responsive Styles */
